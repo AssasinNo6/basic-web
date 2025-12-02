@@ -1,6 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
+  font-size: 1rem; /* mặc định */
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1.1rem; /* chữ to hơn trên mobile */
+  }
+  .navbar-brand, .nav-link {
+    font-size: 1.1rem;
+  }
+}
+
 
 .clickable {
   cursor: pointer;
