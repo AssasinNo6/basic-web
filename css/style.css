@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.clickable {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.clickable:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+  .clickable {
+    margin-bottom: 15px;
+  }
+}
+
+img.clickable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container {
+  max-width: 40%;   /* ảnh chỉ chiếm 40% modal */
+}
+
+#modalImage {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#modalImage.show-zoom {
+  transform: scale(1.05);
+}
+
+.info-container {
+  max-width: 60%;   /* phần thông tin chiếm 60% */
+  overflow-y: auto;
+}
+
