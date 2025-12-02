@@ -15,9 +15,18 @@
 
 <div class="container mt-4">
   <h2>Thư viện hình ảnh</h2>
+
+  <!-- Dropdown chọn bố cục -->
+  <div class="mb-3">
+    <select class="form-select w-auto d-inline" onchange="changeLayout(this.value)">
+      <option value="2">Bố cục 2x2</option>
+      <option value="3" selected>Bố cục 3x2</option>
+      <option value="4">Bố cục 4x2</option>
+    </select>
+  </div>
+
   <div class="row" id="gallery"></div>
 </div>
-
 
   <!-- Modal popup -->
 <div class="modal fade" id="imageModal" tabindex="-1">
