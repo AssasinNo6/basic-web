@@ -1,17 +1,17 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const gallery = document.getElementById("gallery");
 
   // Mảng ảnh – chỉ cần thêm phần tử mới là tự mở rộng
   const imagesData = [
-    {src: "../assets/img/sample1.jpg", info: "Sinh vật huyền bí của Wuwa ở confestion"},
-    {src: "../assets/img/sample2.jpg", info: "Các người bắt nạt ta"},
-    {src: "../assets/img/sample3.jpg", info: "Nàng cáo m5"},
-    {src: "../assets/img/sample4.jpg", info: "Thiếu nữ tai cáo dưới gốc anh đào Yae Miko, nhìn bóng người cô đơn thật đúng là tội.. vơ 🐧"},
-    {src: "../assets/img/sample5.jpg", info: "Doro-sama"},
-    {src: "../assets/img/sample6.jpg", info: "Flop ư, ghi tên chị vào"},
-    {src: "../assets/img/sample7.jpg", info: "Tắm là 1 nghệ thuật"},
-    {src: "../assets/img/sample8.jpg", info: "Ahoyy!"},
-    {src: "../assets/img/sample9.jpg", info: "Thiếu nữ của Tử Vong"},
+    { src: "../assets/img/sample1.jpg", info: "Sinh vật huyền bí của Wuwa ở confestion" },
+    { src: "../assets/img/sample2.jpg", info: "Các người bắt nạt ta" },
+    { src: "../assets/img/sample3.jpg", info: "Nàng cáo m5" },
+    { src: "../assets/img/sample4.jpg", info: "Thiếu nữ tai cáo dưới gốc anh đào Yae Miko, nhìn bóng người cô đơn thật đúng là tội.. vơ 🐧" },
+    { src: "../assets/img/sample5.jpg", info: "Doro-sama" },
+    { src: "../assets/img/sample6.jpg", info: "Flop ư, ghi tên chị vào" },
+    { src: "../assets/img/sample7.jpg", info: "Tắm là 1 nghệ thuật" },
+    { src: "../assets/img/sample8.jpg", info: "Ahoyy!" },
+    { src: "../assets/img/sample9.jpg", info: "Thiếu nữ của Tử Vong" },
     // Thêm bao nhiêu ảnh cũng được, mảng sẽ tự mở rộng
   ];
 
